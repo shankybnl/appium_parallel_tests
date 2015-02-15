@@ -1,0 +1,5 @@
+#This is a yml file to read the parameters and use in test cases
+
+valid_user: android_integration_tests
+valid_password: Wecando1t
+get_started: "Get Started"

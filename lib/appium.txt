@@ -1,0 +1,9 @@
+[caps]
+platformName = "Android"
+bootstrapPort = 2251
+deviceName = "Android"
+app = "/Users/shasharm/Workspace/test/android_app/app/SSapp-1.3.26.apk"
+udid = "4df1666f663c9fef"
+
+[appium_lib]
+port = 4491
