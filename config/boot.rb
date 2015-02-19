@@ -25,6 +25,5 @@ end
 ENV['BUNDLE_GEMFILE'] ||= "#{Integration.root}/Gemfile"
 require 'bundler/setup' if File.exists?(ENV['BUNDLE_GEMFILE'])
 
-# If you have a Gemfile, require the gems listed there, including any gems
-# you've limited to :test, :development, or :production.
+
 Bundler.require(:default, Integration.execution_env) if defined?(Bundler)
