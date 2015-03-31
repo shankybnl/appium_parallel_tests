@@ -17,7 +17,7 @@ Step 1: Clone the Git repo and set up the environemnt. Follow the below steps:
     udid = <device-id>
  c. Run two appium servers as below so tests can talk to them individually.
     node . -p 4492 -bp 2252 -U <udid>(as you mentioned in config/appium.txt)
-    node . -p 4491 -bp 2252 -U <udid>(as you mentioned in lib/appium.txt)
+    node . -p 4491 -bp 2251 -U <udid>(as you mentioned in lib/appium.txt)
     
 Step 3: You are ready to run the tests in parllel. Just hit "rake" command 
     
