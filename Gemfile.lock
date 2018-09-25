@@ -10,7 +10,7 @@ GEM
     awesome_print (1.2.0)
     blankslate (2.1.2.4)
     childprocess (0.5.3)
-      ffi (~> 1.9.24)
+      ffi (~> 1.0, >= 1.9.24)
     diff-lcs (1.2.5)
     ffi (1.9.3)
     json (1.8.1)
